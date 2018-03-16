@@ -54,8 +54,8 @@ npm install mongoose@4.5.9 --save
     });
     ```
  
- <img src = "">
- <img src = "" >
+     <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/1_SavingInstanceToDB_1.png">
+     <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/2_SavingInstanceToDB_2.png" >
   
   
  
