@@ -3,7 +3,7 @@ Learning to build NodeJS RESTful API using Mongoose ORM
 <br>
 
 ## Mongoose ORM
-- npm library helps to structure your data
+- npm library which helps to structure the data
 - http://mongoosejs.com/
 
 **Setting up mongoose** <br>
