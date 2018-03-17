@@ -67,6 +67,8 @@ npm install mongoose@4.5.9 --save
      ```
      <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/4_ImprovingMongooseModel_2.png">
      <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/3_ImprovingMongooseModel_2.jpg" >
+     
+     - Should provide smart default value to **Completed** property (Like nobody is going to create a todo if they have already completed it. Hence completed should be set to false by default)
    
  
  
