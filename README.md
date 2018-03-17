@@ -73,6 +73,26 @@ npm install mongoose@4.5.9 --save
   - <a href = "http://mongoosejs.com/docs/validation.html">Mongoose Validators</a>
   - <a href = "http://mongoosejs.com/docs/guide.html">Mongoose Schema</a>
    
+   **Hence better todo mongoose model is**
+   
+   ```
+   var Todo = mongoose.model('Todo', {
+      text: {
+        type: String,
+        required: true, // validator required (Value must exist)
+        minlength: 1,    // Custom validator for Strings
+        trim: true //trims off any white space at the end or begining of the string
+      },
+      completed: {
+        type: Boolean,
+        default: false
+      },
+      completedAt: {
+        type: Number,
+        default: null // completedAt will be present only when todo is been completed
+      }
+   });
+   ```
  
  
 
