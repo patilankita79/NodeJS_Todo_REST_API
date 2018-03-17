@@ -65,8 +65,8 @@ npm install mongoose@4.5.9 --save
      ```
      var todo = new Todo({ });
      ```
-     <img src = "">
-     <img src = "" >
+     <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/4_ImprovingMongooseModel_2.png">
+     <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/3_ImprovingMongooseModel_2.jpg" >
    
  
  
