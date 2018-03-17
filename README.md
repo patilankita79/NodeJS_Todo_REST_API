@@ -57,6 +57,17 @@ npm install mongoose@4.5.9 --save
      <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/1_SavingInstanceToDB_1.png">
      <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/2_SavingInstanceToDB_2.png" >
   
-  
+ 2. **Improving Mongoose models**
+   - Adding validations, setting some properties as required, setting defaults values
+   - For example, 
+     we should not add a todo if the object doesn't have text or completed property (in the context of Todo application),because if we try to create an object without these properties then a document entry is still made in MongoDB with no entry for text and completed and **this should not happen**
+     
+     ```
+     var todo = new Todo({ });
+     ```
+     <img src = "">
+     <img src = "" >
+   
+ 
  
 
