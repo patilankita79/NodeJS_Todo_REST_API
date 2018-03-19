@@ -100,5 +100,8 @@ npm install mongoose@4.5.9 --save
     - https://www.getpostman.com/apps
     
  
- 
+ 4. **Creating HTTP Routes**
 
+- **Resource creation Endpoint - POST /todos**
+  - This endpoint will be used to add new to-dos
+  
