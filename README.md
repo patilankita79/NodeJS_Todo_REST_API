@@ -97,6 +97,8 @@ npm install mongoose@4.5.9 --save
  3. **Installing Postman** (Important tool to test REST API)
     
     - Installing a tool - Postman, to test HTTP requests 
+    - https://www.getpostman.com/apps
+    
  
  
 
