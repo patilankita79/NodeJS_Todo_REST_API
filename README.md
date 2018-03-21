@@ -160,4 +160,8 @@ npm install mongoose@4.5.9 --save
      <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/testing_POST.png">
      
   - **List resources Endpoint - GET /todos**
-    - This route will be used to get the information about available to-dos
+    - This route will be used to get the information about available to-dos 
+    <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/GET_POSTMAN.png">
+    
+  - **Testing GET /todos**
+    <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/testing_GET.png">
