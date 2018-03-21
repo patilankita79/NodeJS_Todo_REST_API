@@ -105,7 +105,32 @@ npm install mongoose@4.5.9 --save
     - Hence, in server.js, only express route handlers are kept. Hence, server.js will be only responsible for the routes
     
  5. **Creating HTTP Routes**
-
-- **Resource creation Endpoint - POST /todos**
-  - This endpoint will be used to add new to-dos
+  
+  - Install express and body-parser
+  
+    ```
+    npm install express body-parser --save
+    ```
+    
+    **body-parser**
+    - essentially parses the body -> takes string object and converts into JavaScript object 
+    - lets us send JSON to server. Server then can take JSON and do something with it.
+    
+  - **Resource creation Endpoint - POST /todos**
+    - This endpoint will be used to add new to-dos
+    - Inside Postman, make POST request to /todos by entering some text and setting the type of raw text inside body to JSON
+      <img src = "">
+    - Run your server.js file
+    <img src = "">
+    
+    Following response we get, when we try to make POST request through POSTMAN
+    <img src = "">
+    
+    Headers of above response,
+    <img src = "">
+   
+    
+    - Testing in the POSTMAN, if "text" contains empty string, i.e. if user tries to create a to-do with empty string, then server returns error in body along with 400 status code
+     <img src = "">
+    <img src = "">
   
