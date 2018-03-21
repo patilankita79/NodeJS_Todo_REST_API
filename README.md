@@ -119,18 +119,22 @@ npm install mongoose@4.5.9 --save
   - **Resource creation Endpoint - POST /todos**
     - This endpoint will be used to add new to-dos
     - Inside Postman, make POST request to /todos by entering some text and setting the type of raw text inside body to JSON
-      <img src = "">
+      <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/5_Inked5_POST_1_LI.jpg">
     - Run your server.js file
-    <img src = "">
-    
     Following response we get, when we try to make POST request through POSTMAN
-    <img src = "">
+    <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/6_Inked6_POST_Response_2_LI.jpg">
+    
+    At the same time, on console you can check the response
+    <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/5_POST_2.png">
     
     Headers of above response,
-    <img src = "">
+    <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/6_Inked_POST_headers.jpg">
+    
+    In MongoDB,
+    <img src="https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/7_POST_MongoDb_3.png">
    
     
     - Testing in the POSTMAN, if "text" contains empty string, i.e. if user tries to create a to-do with empty string, then server returns error in body along with 400 status code
-     <img src = "">
-    <img src = "">
+     <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/InkedPOST_empty.jpg">
+    <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/POST_emptystring.png">
   
