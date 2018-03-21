@@ -102,7 +102,7 @@ npm install mongoose@4.5.9 --save
  4. **Refactoring code**
     - Database configuration is placed in separate file
     - Models are placed in different file
-    - Hence, in server.js, only express route handlers are kept.
+    - Hence, in server.js, only express route handlers are kept. Hence, server.js will be only responsible for the routes
     
  5. **Creating HTTP Routes**
 
