@@ -99,8 +99,12 @@ npm install mongoose@4.5.9 --save
     - Installing a tool - Postman, to test HTTP requests 
     - https://www.getpostman.com/apps
     
- 
- 4. **Creating HTTP Routes**
+ 4. **Refactoring code**
+    - Database configuration is placed in separate file
+    - Models are placed in different file
+    - Hence, in server.js, only express route handlers are kept.
+    
+ 5. **Creating HTTP Routes**
 
 - **Resource creation Endpoint - POST /todos**
   - This endpoint will be used to add new to-dos
