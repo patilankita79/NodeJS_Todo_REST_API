@@ -137,4 +137,24 @@ npm install mongoose@4.5.9 --save
     - Testing in the POSTMAN, if "text" contains empty string, i.e. if user tries to create a to-do with empty string, then server returns error in body along with 400 status code
      <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/InkedPOST_empty.jpg">
     <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/POST_emptystring.png">
-  
+    
+    <br>
+  - **Testing POST /todos**
+    - Writing test-cases for /todo
+      - Verify that when we send correct data as a body, we get 200 status code with document including id 
+      - When we send bad data, expect back 400 with error object
+    - Install expect for assertions, mocha for entire test suite, supertests to test express routes as dev-dependencies
+      ```
+      npm install expect mocha supertest --save-dev
+      ```
+    - In order to run the tests from terminal, make few changes in the package.json
+      ```
+      "scripts": {
+          "test": "mocha server/**/*.test.js"
+        }
+      ```
+    - Running the tests
+      ```
+      npm run test
+      ```
+     <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/testing_POST.png">
