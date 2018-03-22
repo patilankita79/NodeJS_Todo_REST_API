@@ -165,3 +165,6 @@ npm install mongoose@4.5.9 --save
     
   - **Testing GET /todos**
     <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/testing_GET.png">
+    
+  - **Getting individual resource Endpoint - GET /todos/:id**
+    - This API route will be used to fetch an individual todo
