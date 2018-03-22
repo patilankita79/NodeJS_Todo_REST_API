@@ -173,3 +173,10 @@ npm install mongoose@4.5.9 --save
       **Case** where object id is valid but not in the MongoDB collection, then the response will have empty body with status code of 404.
       For the following case, I have tweaked the last digit of object id
       <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/getTodoWithID_2.jpg">
+      
+     - **Testing GET /todos/:id**
+        - 4 test cases to test the route /todos/:id
+          - One that fetches individual to-do item
+          - Another that makes sure that when we pass invalid object id, 404 is returned
+          - Another test case that verifies when we pass valid object id but does not match a document, 404 is returned
+          - Another test case that verifies when we pass valid object id and that id matches a document, then that document actually comes back in the response body
