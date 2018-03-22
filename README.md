@@ -175,8 +175,10 @@ npm install mongoose@4.5.9 --save
       <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/getTodoWithID_2.jpg">
       
      - **Testing GET /todos/:id**
-        - 4 test cases to test the route /todos/:id
-          - One that fetches individual to-do item
+        - 3 test cases to test the route /todos/:id
+          - One that fetches individual to-do item and verifies when we pass valid object id and that id matches a document, then that document actually comes back in the response body
           - Another that makes sure that when we pass invalid object id, 404 is returned
           - Another test case that verifies when we pass valid object id but does not match a document, 404 is returned
-          - Another test case that verifies when we pass valid object id and that id matches a document, then that document actually comes back in the response body
+          
+        <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/testCaseGetTodoID.jpg">
+         
