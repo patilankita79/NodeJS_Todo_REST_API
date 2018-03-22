@@ -168,3 +168,8 @@ npm install mongoose@4.5.9 --save
     
   - **Getting individual resource Endpoint - GET /todos/:id**
     - This API route will be used to fetch an individual todo
+      Case where object id is valid and is present in the MongoDB collection, then the response will have body and status code of 200
+      <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/getTodoWithID_1.jpg">
+      Case where object id is valid but not in the MongoDB collection, then the response will have empty body with status code of 404.
+      For the following case, I have tweaked the last digit of object id
+      <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/getTodoWithID_2.jpg">
