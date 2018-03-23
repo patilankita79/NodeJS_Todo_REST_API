@@ -181,4 +181,22 @@ npm install mongoose@4.5.9 --save
           - Another test case that verifies when we pass valid object id but does not match a document, 404 is returned
           
         <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/testCaseGetTodoID.jpg">
+     
+      - **Delete a resource Endpoint - DELETE /todos/:id**
+        - This route will be responsoible for deleting a to-do by its id
+        - remove() -> Removes multiple records matching the query
+        - findOneAndRemove() -> Removes a document by matching id
+        - findByIdAndRemove() -> Removes a document by matching id
+        
+        Consider, a doc to be deleted
+        <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/8_docTobedeleted%20(1).jpg">
+        <br>
+        
+        run server.js and make a DELETE request from postman
+        <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/8_docTobedeleted%20(2).jpg">
+        
+        From above image, it is evident that, the document got deleted.
+        <br>
+        Checking the all the dcouments in MongoDB, <br>
+        <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/9_AfterDelete.png">
          
