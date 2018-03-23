@@ -174,7 +174,7 @@ npm install mongoose@4.5.9 --save
       For the following case, I have tweaked the last digit of object id
       <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/getTodoWithID_2.jpg">
       
-     - **Testing GET /todos/:id**
+    - **Testing GET /todos/:id**
         - 3 test cases to test the route /todos/:id
           - One that fetches individual to-do item and verifies when we pass valid object id and that id matches a document, then that document actually comes back in the response body
           - Another that makes sure that when we pass invalid object id, 404 is returned
@@ -182,11 +182,11 @@ npm install mongoose@4.5.9 --save
           
         <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/testCaseGetTodoID.jpg">
      
-      - **Delete a resource Endpoint - DELETE /todos/:id**
-        - This route will be responsoible for deleting a to-do by its id
-        - remove() -> Removes multiple records matching the query
-        - findOneAndRemove() -> Removes a document by matching id
-        - findByIdAndRemove() -> Removes a document by matching id
+   - **Delete a resource Endpoint - DELETE /todos/:id**
+      - This route will be responsoible for deleting a to-do by its id
+      - remove() -> Removes multiple records matching the query
+      - findOneAndRemove() -> Removes a document by matching id
+      - findByIdAndRemove() -> Removes a document by matching id
         
         Consider, a doc to be deleted
         <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/8_docTobedeleted%20(1).jpg">
