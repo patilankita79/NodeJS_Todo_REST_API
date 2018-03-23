@@ -199,4 +199,11 @@ npm install mongoose@4.5.9 --save
         <br>
         Checking the all the dcouments in MongoDB, <br>
         <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/9_AfterDelete.png">
+        
+   - **Testing DELETE /todos/:id**
+     - Test case to verify that when we pass in an ID that does exist in the todo collection, gets removed
+     - If not found return 404. (If you are trying to delete an item that is not in the databse)
+     - Should return 404 if object ID is invalid i.e. when we have invalid object id and try to delete it, we should get back 404 status code
+        
+     <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/testCaseDeleteByID.jpg">
          
