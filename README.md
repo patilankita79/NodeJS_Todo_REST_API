@@ -2,6 +2,7 @@
 Learning to build as well as test NodeJS RESTful API using Mongoose ORM
 - Use of different enviornments -> Local and Heroku
 - Use of local MongoDB for local enviornment and use of mlab for Heroku
+- Deployed on HEROKU -> https://secret-wildwood-28396.herokuapp.com/todos This URI makes GET request
 <br>
 
 ## Mongoose ORM
