@@ -207,3 +207,19 @@ npm install mongoose@4.5.9 --save
         
      <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/testCaseDeleteByID.jpg">
          
+  - **Update a resource Endpoint - PATCH /todos/:id**
+    
+    Lodash provides utility functions
+    ```
+    npm install lodash --save
+    ```
+    
+    We have 2 todos, 
+    <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/patch_1.jpg">
+    
+    <br>
+    Out of 2 todos, we will try to update a todo with id 5ab58f9d14f0001bb0c9d491 and change the text property as well as completed property
+    <img src = "https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/patch_2.jpg">
+    <br>
+    In MongoDB, we can see the updated value of the document
+    <img src ="https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/patch_3.jpg">
