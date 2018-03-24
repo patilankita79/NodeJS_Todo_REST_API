@@ -223,3 +223,7 @@ npm install mongoose@4.5.9 --save
     <br>
     In MongoDB, we can see the updated value of the document
     <img src ="https://github.com/patilankita79/NodeJS_Todo_REST_API/blob/master/Screenshots/patch_3.jpg">
+    
+   - **Testing PATCH /todos**
+    - COMPLETED TO-DO -> Test case to verify if the text property is changed, completed is true and completedAt is number
+    - NOT COMPLETED TO-DO -> Test case to verify if the text property is changed, completed is false and completedAt is null
