@@ -1,5 +1,5 @@
 # NodeJS_Todo_REST_API
-Learning to build NodeJS RESTful API using Mongoose ORM
+Learning to build as well as test NodeJS RESTful API using Mongoose ORM
 - Use of different enviornments -> Local and Heroku
 - Use of local MongoDB for local enviornment and use of mlab for Heroku
 <br>
